@@ -1,4 +1,5 @@
 language: ruby
+cache: bundler
 bundler_args: --without development kitchen_docker kitchen_vagrant
 rvm:
 - 2.1.4
