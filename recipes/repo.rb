@@ -39,3 +39,5 @@ when 'debian'
     key          'http://nginx.org/keys/nginx_signing.key'
   end
 end
+
+include_recipe 'nginx::package'
